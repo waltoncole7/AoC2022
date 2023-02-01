@@ -1,0 +1,12 @@
+I can easily find:
+sensor locations
+beacon locations
+closest beacon to each sensor
+distance to closest beacon from each sensor
+
+when checking an x and y coordinate, I want to search for the closest sensor, then compare distances only with that sensor.
+^wont work because the constraining sensor is not necessarily the closest.
+
+My current approach would have:
+part 1: 20 million*32 comparisons
+part 2: (4 million)^2 *32 comparisons. <<That's a lot more. 800,000 times more comparisons.

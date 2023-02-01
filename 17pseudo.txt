@@ -1,0 +1,21 @@
+How do I "drop" a piece?
+
+Continually perform step 1 and step 2
+
+piece is one squid. board is another.
+
+Step 1: move to the prescribed side.
+    check if the next move has overlaps.
+        if not, move every cell to that side.
+        if so, do nothing and move o.
+step 2: move down
+    check if down has overlaps
+        if so, STOP EVERYTHING and move on to the next piece
+        if not, move everything down.
+
+
+
+-------coordinates---------
+(0,0) is at bottom left
++x is left
++y is down

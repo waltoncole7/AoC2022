@@ -1,0 +1,49 @@
+order function:
+take in list a and list b
+return whether they are in the right order (certain, value)
+
+for i in min:
+    if both are int:
+        if there is a difference:
+            return true, a < b
+    if one of each:
+        turn int to list
+    if both are list:
+        answer = order(a at i, b at i)
+        if answer[0]:
+            return true, answer
+
+
+
+
+
+if both are length 1 and :
+    return a < b or if equal, no certainty
+else:
+    for i in minLength:
+        if order(a[i], b[i])[0]:
+            return order()[1]
+    if lengths arent equal:
+        return  len(a) > len(b)
+
+
+
+---------Part 2------------
+
+first pass:
+move the first value 
+
+[1,2,3]
+i=0
+j: 0
+
+
+for every element:
+make that element the one we move on this pass
+starting at the beginning, check if they are in the right order. If NOT: put it in the spot one previous.
+
+list = [1,2,3,4,5]
+i=4
+moving = 3
+j=1
+order(moving, jval) = true

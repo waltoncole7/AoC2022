@@ -1,0 +1,22 @@
+Breadth-first search?
+
+benefit will be the cumulative gas to be released
+priority queue will sort: first, high benefit to low.
+
+(priority, data)
+priority = -benefit
+
+for each room in the frontier,
+-take it out
+-find its neighbors
+
+**How do we determine whether to turn a valve or move past it?
+
+
+Depth-first search?
+work in terms of moves instead of rooms?
+"Depth" is really time. Max depth of 30
+each move is either turning a valve or moving through a tunnel
+this seems better.
+
+
